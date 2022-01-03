@@ -1,1 +1,1 @@
-# TwitterSentimentalAnalysis
+# Twitter Sentimental Analysis Usando PySpark
