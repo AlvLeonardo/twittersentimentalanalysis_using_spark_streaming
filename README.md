@@ -6,4 +6,6 @@ O projeto busca realizer uma análise de sentimentos de Tweets obtidos da plataf
 
 # Forma de análise
 
-Para análise de sentimentos foram utilizados emojis previamente definidos, os quais tiveram como intuito, classificar os tweets obtidos como: positivo, negativo ou neutro
+Para análise de sentimentos foram utilizados emojis previamente definidos, os quais tiveram como intuito, classificar os tweets obtidos como: positivo, negativo ou neutro. Todo o 
+processamento de dados foi feito utilizando notebooks do Azure Databricks, juntamente com PySpark, tanto para filtar os dados históricos (Batch Layer), quanto para utilizar o
+Spark Streaming para processar os dados oriundos do twitter (Speed Layer) em tempo real.
