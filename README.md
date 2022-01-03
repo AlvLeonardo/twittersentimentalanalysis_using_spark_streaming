@@ -10,4 +10,5 @@ The project intends to carry out an analysis of sentiments from Tweets obtained 
 
 For the sentiment analysis, previously defined emojis were used, which aimed to classify the tweets obtained as: positive, negative or neutral. All the
 Data processing was done using Azure Databricks notebooks, together with PySpark, both to filter historical data (Batch Layer) and to use the
-Spark Streaming to process data from twitter (Speed Layer) in real time.
+Spark Streaming to process data from twitter (Speed Layer) in real time. Azure Data Lake Storage Gen2 was used to store all data present in the sentiment analysis process, being
+connected to Databricks, using mount point
